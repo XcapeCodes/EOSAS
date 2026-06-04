@@ -4,15 +4,11 @@ EOSAS is a portable AI-powered skin analysis device that combines embedded syste
 
 
 
-\# EOSAS - Embedded Optical Skin Analysis System
-
-
-
 \## Dashboard
 
 
 
-!\[Dashboard](Images/dashboard.png)
+!\[Dashboard](images/dashboard.png)
 
 
 
@@ -20,7 +16,7 @@ EOSAS is a portable AI-powered skin analysis device that combines embedded syste
 
 
 
-!\[Hardware](Images/eosas\_hardware\_overview.jpg)
+!\[Hardware](images/eosas\_hardware\_overview.JPG)
 
 
 
@@ -28,7 +24,7 @@ EOSAS is a portable AI-powered skin analysis device that combines embedded syste
 
 
 
-!\[Argon](Images/eosas\_argon\_closeup.jpg)
+!\[Argon](images/eosas\_argon\_closeup.jpg.JPG)
 
 
 
