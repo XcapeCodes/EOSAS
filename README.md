@@ -2,6 +2,36 @@
 
 EOSAS is a portable AI-powered skin analysis device that combines embedded systems, computer vision, and machine learning to analyze skin images and provide hazard assessments.
 
+
+
+\# EOSAS - Embedded Optical Skin Analysis System
+
+
+
+\## Dashboard
+
+
+
+!\[Dashboard](Images/dashboard.png)
+
+
+
+\## Hardware Prototype
+
+
+
+!\[Hardware](Images/eosas\_hardware\_overview.jpg)
+
+
+
+\## Embedded Controller
+
+
+
+!\[Argon](Images/eosas\_argon\_closeup.jpg)
+
+
+
 ## Overview
 
 EOSAS captures skin images using an ESP32-CAM, processes them through a machine learning pipeline, and displays results through a custom Flask dashboard. A Particle Argon controls the user interface, including scan lighting, button controls, and hazard indication LEDs.
@@ -63,3 +93,4 @@ Mishael Agbali
 
 Electrical Engineering Student
 University of South Florida
+
