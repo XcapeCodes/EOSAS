@@ -46,12 +46,13 @@ In Progress
 
 ## Hardware
 
-* ESP32-CAM
-* Particle Argon
-* White LEDs
-* Status LEDs
-* Momentary Push Button
-* SD Card Storage
+- ESP32-CAM
+- Particle Argon
+- White illumination LEDs
+- Status LEDs
+- Push button
+- SD card storage
+- External power supply
 
 ## Software
 
