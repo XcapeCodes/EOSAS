@@ -1,6 +1,6 @@
 # EOSAS - Embedded Optical Skin Analysis System
 
-EOSAS is a portable AI-powered skin analysis device that combines embedded systems, computer vision, and machine learning to analyze skin images and provide hazard assessments.
+EOSAS is a prototype embedded system developed to explore the integration of computer vision, machine learning, and embedded hardware. The system captures images using an ESP32-CAM, processes them through a Python-based machine learning pipeline, and generates a hazard score through a custom dashboard interface.
 
 ## Overview
 
