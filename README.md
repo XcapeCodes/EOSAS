@@ -93,3 +93,8 @@ Mishael Agbali
 Electrical Engineering Student
 University of South Florida
 
+LinkedIn:
+www.linkedin.com/in/mishaelagbali
+
+GitHub:
+https://github.com/XcapeCodes
