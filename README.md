@@ -55,15 +55,17 @@ In Progress
 * Arduino Framework
 * Particle Device OS
 
+
 ## System Workflow
 
-User Presses Button
-→ Argon Activates Scan Lighting
-→ ESP32-CAM Captures Image
-→ Image Sent To Flask Server
-→ AI Model Generates Prediction
-→ Dashboard Updates
-→ Hazard Result Displayed Through LEDs
+1. User initiates scan
+2. Particle Argon activates lighting
+3. ESP32-CAM captures image
+4. Image is sent to Python server
+5. OpenCV preprocesses image
+6. TensorFlow model generates prediction
+7. Dashboard displays results
+8. Hazard indication LEDs update
 
 ## Future Improvements
 
