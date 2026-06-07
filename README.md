@@ -67,6 +67,16 @@ In Progress
 7. Dashboard displays results
 8. Hazard indication LEDs update
 
+## Engineering Challenges
+
+During development, several challenges were encountered:
+
+- Integrating embedded hardware with a machine learning workflow
+- Managing image acquisition and transfer between devices
+- Training and evaluating image classification models
+- Designing a user interface for displaying results
+- Coordinating communication between hardware and software subsystems
+
 ## Future Improvements
 
 * Photodiode integration
