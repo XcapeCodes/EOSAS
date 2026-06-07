@@ -94,7 +94,7 @@ Electrical Engineering Student
 University of South Florida
 
 LinkedIn:
-www.linkedin.com/in/mishaelagbali
+https://www.linkedin.com/in/mishael-agbali/
 
 GitHub:
 https://github.com/XcapeCodes
