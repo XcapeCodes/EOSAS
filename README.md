@@ -6,6 +6,14 @@ EOSAS is a prototype embedded system developed to explore the integration of com
 
 EOSAS captures skin images using an ESP32-CAM, processes them through a machine learning pipeline, and displays results through a custom Flask dashboard. A Particle Argon controls the user interface, including scan lighting, button controls, and hazard indication LEDs.
 
+## 🎥 Demo Video
+
+A demonstration of the current EOSAS prototype can be found in the `demo` folder:
+
+➡️ **eosas_demo.mov**
+
+If GitHub does not preview the video directly, download the file to view the full demonstration.
+
 ## Prototype Status
 
 Current Features
