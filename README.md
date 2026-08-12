@@ -48,6 +48,7 @@ The board integrates:
 - Programming, expansion, and debugging interfaces
 
 **Status:** Design complete; fabrication and physical validation pending.
+
 Full PCB design files, schematic, layout, and documentation are available in the [`PCB/`](PCB/) directory.
 
 ## Features
