@@ -77,7 +77,6 @@ The board integrates:
 - ESP32 programming header
 - Expansion/debug header
 - SD card storage
-- Custom enclosure
   
 ## Software
 
