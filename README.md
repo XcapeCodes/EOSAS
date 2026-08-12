@@ -106,12 +106,15 @@ During development, several challenges were encountered:
 
 ## Future Improvements
 
-* Photodiode integration
-* Custom PCB
-* Custom enclosure
-* Battery-powered operation
-* Improved hazard scoring
-* Automatic server discovery
+- Fabricate and validate EOSAS PCB v1.0
+- Complete optical sensor calibration
+- Build PCB-based custom enclosure
+- Add battery-powered operation
+- Improve hazard scoring
+- Expand training data with EOSAS-captured images
+- Improve condition-matching model
+- Add automatic server discovery
+- Improve wireless communication reliability
 
 ## Author
 
