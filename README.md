@@ -64,14 +64,21 @@ The board integrates:
 
 ## Hardware
 
-- ESP32-CAM
+- ESP32-CAM with OV2640 camera
 - Particle Argon
-- White illumination LEDs
-- Status LEDs
-- Push button
+- EOSAS PCB v1.0
+- TEMT6000 optical light sensor
+- White scan illumination
+- Low / Medium / High hazard LEDs
+- Scan push button
+- Power switch
+- USB-C 5 V power input
+- External illumination connector
+- ESP32 programming header
+- Expansion/debug header
 - SD card storage
-- External power supply
-
+- Custom enclosure
+  
 ## Software
 
 * Python
@@ -82,17 +89,23 @@ The board integrates:
 * Arduino Framework
 * Particle Device OS
 
-
 ## System Workflow
 
-1. User initiates scan
-2. Particle Argon activates lighting
-3. ESP32-CAM captures image
-4. Image is sent to Python server
-5. OpenCV preprocesses image
-6. TensorFlow model generates prediction
-7. Dashboard displays results
-8. Hazard indication LEDs update
+1. User powers on EOSAS
+2. Particle Argon initializes the hardware
+3. ESP32-CAM connects to the configured network
+4. EOSAS locates the inference server
+5. User positions the target skin area
+6. User presses the Scan button
+7. Optical sensor measures illumination conditions
+8. White scan lighting is activated
+9. ESP32-CAM captures the image
+10. Image is sent to the Python inference server
+11. OpenCV preprocesses the image
+12. TensorFlow generates the hazard prediction
+13. Hazard score and confidence are calculated
+14. Results are displayed on the dashboard
+15. EOSAS updates the Low / Medium / High hazard indicator LED
 
 ## Engineering Challenges
 
