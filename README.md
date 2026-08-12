@@ -29,8 +29,8 @@ Current Features
 
 In Progress
 
-- Photodiode integration
-- Custom PCB
+- PCB fabrication and hardware validation
+- Optical sensor integration and calibration
 - Custom enclosure
 - Improved model performance
 
@@ -48,6 +48,8 @@ The board integrates:
 - Programming, expansion, and debugging interfaces
 
 **Status:** Design complete; fabrication and physical validation pending.
+
+Full PCB design files, schematic, layout, and documentation are available in the [`PCB/`](PCB/) directory.
 
 ## Features
 

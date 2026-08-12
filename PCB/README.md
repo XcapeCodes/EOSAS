@@ -1,3 +1,4 @@
+[← Back to main EOSAS documentation](../README.md)
 # EOSAS PCB v1.0
 
 EOSAS PCB v1.0 is a custom dual-MCU carrier board designed to replace the breadboard wiring used in the original EOSAS prototype and consolidate the system electronics onto a dedicated PCB.
