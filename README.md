@@ -34,6 +34,21 @@ In Progress
 - Custom enclosure
 - Improved model performance
 
+## Custom PCB
+
+EOSAS PCB v1.0 is a custom dual-MCU carrier board designed to replace the breadboard wiring used in the original prototype and consolidate the system electronics onto a dedicated PCB.
+
+The board integrates:
+- Particle Argon and ESP32-CAM
+- USB-C power input and protection
+- Optical sensing
+- Controlled scan illumination
+- Low / Medium / High hazard indicators
+- Power and scan controls
+- Programming, expansion, and debugging interfaces
+
+**Status:** Design complete; fabrication and physical validation pending.
+
 ## Features
 
 * ESP32-CAM image capture
