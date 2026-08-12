@@ -37,12 +37,11 @@ EOSAS PCB v1.0 is a custom dual-MCU carrier board designed to replace the breadb
 
 ![EOSAS PCB v1.0 Schematic](EOSAS_PCB_v1_schematic.png)
 
-### 3D Render
+### PCB Layout
 
 ![EOSAS PCB v1.0 Layout](EOSAS_PCB_v1_layout_final.png)
 
-### PCB Layout
-
+### 3D Render
 ![EOSAS PCB v1.0 3D Render](EOSAS_PCB_v1_3D.png)
 
 ## Architecture
