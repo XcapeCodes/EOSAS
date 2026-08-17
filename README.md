@@ -23,20 +23,25 @@ If GitHub does not preview the video directly, download the file to view the ful
 
 ## Project Status
 
-Current Features
+### Completed
+- Breadboard-based functional prototype
+- ESP32-CAM image acquisition
+- Particle Argon control firmware
+- Flask dashboard and inference pipeline
+- Custom PCB schematic and layout
+- ERC/DRC verification
 
-- ESP32-CAM image capture
-- Hazard scoring pipeline
-- Dashboard interface
-- LED status indicators
-- Embedded control system
-
-In Progress
-
-- PCB fabrication and hardware validation
-- Optical sensor integration and calibration
+### In Progress
+- PCB fabrication and bring-up
+- Hardware validation
+- Optical sensor calibration
 - Custom enclosure
-- Improved model performance
+
+### Planned
+- PCB revision based on bring-up results
+- Battery-powered operation
+- Improved wireless reliability
+- Additional model/data evaluation
 
 ## Custom PCB
 
