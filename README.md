@@ -21,7 +21,7 @@ A demonstration of the current EOSAS prototype can be found in the `demo` folder
 
 If GitHub does not preview the video directly, download the file to view the full demonstration.
 
-## Prototype Status
+## Project Status
 
 Current Features
 
