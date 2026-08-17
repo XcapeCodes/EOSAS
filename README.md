@@ -154,7 +154,7 @@ EOSAS/
 ├── demo/       # Prototype demonstration
 └── images/     # Architecture diagrams and project media
 
-## Third-Party / Reference Code
+## Third-Party
 
 Portions of the ESP32 camera-server implementation are based on Espressif reference/example code and remain subject to their respective licensing terms.
 
