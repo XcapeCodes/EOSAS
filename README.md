@@ -117,15 +117,19 @@ Full PCB design files, schematic, layout, and documentation are available in the
 14. Results are displayed on the dashboard
 15. EOSAS updates the Low / Medium / High hazard indicator LED
 
-## Engineering Challenges
+## Engineering Decisions & Tradeoffs
 
-During development, several challenges were encountered:
+### Dual-MCU Architecture
+The Particle Argon manages physical user controls, illumination, and status indicators, while the ESP32-CAM handles image acquisition and network communication. This separates hardware-control responsibilities from camera and image-transfer tasks.
 
-- Integrating embedded hardware with a machine learning workflow
-- Managing image acquisition and transfer between devices
-- Training and evaluating image classification models
-- Designing a user interface for displaying results
-- Coordinating communication between hardware and software subsystems
+### Custom PCB
+PCB v1.0 consolidates the original breadboard wiring into a dedicated carrier board with USB-C power/protection, optical sensing, illumination control, status indicators, and programming/debug interfaces.
+
+### Controlled Illumination
+White scan LEDs and an optical light sensor are included to support more consistent image-capture conditions and future calibration work.
+
+### Debug and Expansion Access
+Programming and debug interfaces were included to simplify board bring-up, firmware development, and future hardware revisions.
 
 ## Future Improvements
 
