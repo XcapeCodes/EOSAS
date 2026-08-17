@@ -153,6 +153,7 @@ EOSAS/
 ├── models/     # Machine-learning models and related files
 ├── demo/       # Prototype demonstration
 └── images/     # Architecture diagrams and project media
+```
 
 ## Third-Party
 
