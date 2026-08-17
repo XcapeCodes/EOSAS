@@ -143,6 +143,22 @@ Programming and debug interfaces were included to simplify board bring-up, firmw
 - Add automatic server discovery
 - Improve wireless communication reliability
 
+## Repository Structure
+
+EOSAS/
+├── Firmware/   # Embedded firmware and device control
+├── PCB/        # KiCad schematic, layout, renders, and documentation
+├── Software/   # Flask/OpenCV/TensorFlow application code
+├── models/     # Machine-learning models and related files
+├── demo/       # Prototype demonstration
+└── images/     # Architecture diagrams and project media
+
+## Third-Party / Reference Code
+
+Portions of the ESP32 camera-server implementation are based on Espressif reference/example code and remain subject to their respective licensing terms.
+
+EOSAS-specific hardware design, system integration, control firmware, software, and modifications are documented separately within this repository.
+
 ## Author
 
 Mishael Agbali
