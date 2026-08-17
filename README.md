@@ -147,12 +147,12 @@ Programming and debug interfaces were included to simplify board bring-up, firmw
 
 ```text
 EOSAS/
-├── Firmware/   ### Embedded firmware and device control
-├── PCB/        ### KiCad schematic, layout, renders, and documentation
-├── Software/   ### Flask/OpenCV/TensorFlow application code
-├── models/     ### Machine-learning models and related files
-├── demo/       ### Prototype demonstration
-└── images/     ### Architecture diagrams and project media
+├── Firmware/   Embedded firmware and device control
+├── PCB/        KiCad schematic, layout, renders, and documentation
+├── Software/   Flask/OpenCV/TensorFlow application code
+├── models/     Machine-learning models and related files
+├── demo/       Prototype demonstration
+└── images/     Architecture diagrams and project media
 ```
 
 ## Third-Party
