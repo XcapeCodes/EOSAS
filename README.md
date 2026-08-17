@@ -1,6 +1,10 @@
 # EOSAS - Embedded Optical Skin Analysis System
 
-EOSAS is a prototype embedded system developed to explore the integration of computer vision, machine learning, and embedded hardware. The system captures images using an ESP32-CAM, processes them through a Python-based machine learning pipeline, and generates a hazard score through a custom dashboard interface.
+EOSAS is an embedded imaging prototype developed to explore hardware/software integration, computer vision, and machine learning.
+
+The system combines an ESP32-CAM for image acquisition, a Particle Argon for physical controls and system status, a custom dual-MCU PCB, C/C++ firmware, and a Python-based Flask/OpenCV/TensorFlow processing pipeline.
+
+> **Note:** EOSAS is an educational engineering prototype. It is not a medical device and is not intended for diagnosis, treatment, or clinical use.
 
 ## Overview
 
