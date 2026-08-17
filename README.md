@@ -145,6 +145,7 @@ Programming and debug interfaces were included to simplify board bring-up, firmw
 
 ## Repository Structure
 
+```text
 EOSAS/
 ├── Firmware/   # Embedded firmware and device control
 ├── PCB/        # KiCad schematic, layout, renders, and documentation
